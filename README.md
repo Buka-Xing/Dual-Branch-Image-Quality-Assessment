@@ -1,5 +1,7 @@
 # Dual-Branch-Image-Quality-Assessment
-The official repository for the DBIQA, a full-reference image quality assessment model aiming to discerning appealing content deformations. It tackles this issue by comparing deep network features in the kernel dissimilarity analysis method. The key difference of DBIQA is it considers the joint degradation of deep network features.
+The official repository for the Dual-Branch-Image-Quality-Assessment (DBIQA). DBIQA is a full-reference image quality assessment model aiming to discern appealing content deformations. It tackles this issue by comparing deep network features in the kernel representation dissimilarity analysis (KRDA) method. 
+
+The key difference between DBIQA and existing methods is that DBIQA combines two feature comparison approaches. The first is the feature self-similarity comparison, which considers the joint degradation of deep network features and mainly introduces the robustness of content deformations. The second is the feature pairwise comparison branch, which compares deep features from the reference image and the different image pairwise and mainly introduces the differentiability of the model in guiding perceptual image enhancement.
 
 ## Advantages of DBIQA:
 1.  It not only performs well on **classic synthetic distortion-based datasets** but also on several **image processing algorithm-based** datasets like texture synthesis, deep network-based compression, generative network-based superresolution, etc.
@@ -22,7 +24,7 @@ The official repository for the DBIQA, a full-reference image quality assessment
     
 3.  Differentiability in guiding perceptual image enhancement.
 
-4.  Adaptivity to diverse network architectures.
+4.  Adaptivity to diverse network architectures, including the VGG, ResNet, SqueezeNet, MobileNet, and EfficientNet.
 
 -----------------------------
 ## Updating log:
