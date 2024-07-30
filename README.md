@@ -71,3 +71,6 @@ The official repository for the DBIQA, a full-reference image quality assessment
         print('score: %.4f' % score.item())
 
 #### For Perceptual image enhancement: Please Refer to 'recover.py'
+
+----------------------------
+## Citation
