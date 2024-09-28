@@ -1,5 +1,5 @@
 # Dual-Branch-Image-Quality-Assessment
-The official repository for the Dual-Branch-Image-Quality-Assessment (DBIQA). DBIQA is a full-reference image quality assessment model aiming to discern appealing content deformations. It tackles this issue by comparing deep network features in the kernel representation dissimilarity analysis (KRDA) method.
+The official repository for the Dual-Branch-Image-Quality-Assessment (DBIQA). DBIQA is a full-reference image quality assessment model aiming to discern appealing content deformations. It tackles this issue by comparing deep network features in the kernel representation similarity analysis (KRSA) method.
 
 The key difference between DBIQA and existing methods is that DBIQA combines two feature comparison approaches. The first is the feature self-similarity comparison, which considers the joint degradation of deep network features and mainly ensures the robustness of content deformations. The second is the feature pairwise comparison branch, which compares deep features from the reference image and the different image pairwise and mainly ensures the differentiability of the model in guiding perceptual image enhancement.
 
